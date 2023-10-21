@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Webdesign</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Creepster&family=Quintessential&family=Rye&family=UnifrakturMaguntia&family=Kranky&family=Nosifer&family=Noto+Sans+Rubic&family=Noto+Color+Emoji&family=Dancing+Script&family=Fuggles&family=Indie+Flower&family=Kalam&family=Montserrat:wght@100&family=Permanent+Marker&family=Poppins&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9f71dab2a2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+
+        <section class="banner" id="home">
+            <div class="textBx">
+                <h2>Hello, I'm<br><span>Jill Williams</span></h2>
+                <h3>I'm a Front-End Web Developer</h3>
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx w50">
+                    <h3>I'm a Front-End Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, minima beatae delectus animi, sequi nemo optio consequatur modi odit repellat, ratione eum exercitationem.</p>
+                </div>
+                <div class="w50">
+                    <img src="images/portfolio1.jpg" class="img">
+                </div>
+            </div>
+        </section>
+        <!-- ////////////////////////////  -->
+        <section class="services" id="services">
+            <div class="heading white">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="serviceBx">
+                    <img src="images/icon1.jpg">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+                <div class="serviceBx">
+                    <img src="images/icon2.jpg">
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+                <div class="serviceBx">
+                    <img src="images/icon3.jpg">
+                    <h2>Android App</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+                <div class="serviceBx">
+                    <img src="images/icon4.jpg">
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+                <div class="serviceBx">
+                    <img src="images/icon5.jpg">
+                    <h2>Content Writing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+                <div class="serviceBx">
+                    <img src="images/icon6.jpg">
+                    <h2>Video Editing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+            </div>
+        </section>
+        <!-- ///////////////////////////// -->
+        <section class="work" id="work">
+            <div class="heading">
+                <h2>Our Latest Work</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <img src="images/product1.jpg">
+                </div>
+                <div class="workBx">
+                    <img src="images/product2.jpg">
+                </div>
+                <div class="workBx">
+                    <img src="images/product3.jpg"> 
+                </div>
+                <div class="workBx">
+                    <img src="images/product4.jpg">
+                </div>
+            </div>
+            <div class="heading">
+                <a href="#" class="btn">View More</a>
+            </div>
+        </section>
+        <!-- //////////////////////////////  -->
+        <section class="testimonial" id="testimonial">
+            <div class="heading">
+                <h2>Testimonials</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="testimonialBx">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam facere accusantium libero quo ratione provident autem pariatur magni omnis."
+                    </p>
+                    <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                </div>
+                <div class="testimonialBx">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam facere accusantium libero quo ratione provident autem pariatur magni omnis."
+                    </p>
+                    <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////////////contact us /////// -->
+        <section class="contact" id="contact">
+            <div class="heading white">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="contactInfo">
+                    <h3>Contact Info</h3>
+                    <div class="contactInfoBox">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>4821 W. 12th Ave.<br>Kennewick, WA<br>99338</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>555-123-4567</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>someone@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formBx">
+                    <form>
+                        <h3>Message Me</h3>
+                        <input type="text" name="" placeholder="Full Name">
+                        <input type="email" name="" placeholder="Email">
+                        <textarea placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- ///////////////////////////  -->
+        
+        <div class="copyright">
+            <p>Copyright 2020 Online Tutorials</p>
+        </div>
+        
+        <script type="text/javascript">
+            window.addEventListener('scroll', function() {
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY > 0);
+            });
+            function toggleMenu() {
+                var menuToggle = document.querySelector('.toggle');
+                menuToggle.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
